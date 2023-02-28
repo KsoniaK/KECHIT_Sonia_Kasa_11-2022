@@ -1,0 +1,10 @@
+/* Container Taf / Note */
+.container_tags-note{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem
+}
+.tags{
+  display: flex;
+}

@@ -1,0 +1,36 @@
+header{
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+/* Logo */
+.div_logo{
+  width: 70%;
+}
+.logo_img{
+  width: 10%;
+}
+/* Navigation */
+.nav{
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+}
+.nav a{
+  color: #FF6060;
+  text-decoration: none;
+}
+
+/* PORTABLE */
+@media screen and (max-width: 800px) {
+  header{
+    align-items: center;
+    padding: 1rem;
+  }
+  .logo_img{
+    width: 36%;
+  }
+  .nav{
+    width: 45%;
+  }
+}

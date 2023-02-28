@@ -1,0 +1,12 @@
+footer{
+  background-color: black;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+.container_footer img{
+  width: 4%;
+}
+.copyright_footer{
+  color: white ;
+}

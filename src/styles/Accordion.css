@@ -1,0 +1,66 @@
+/* div Accordions */
+#accordions{
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.accordions{
+  width: 45%;
+}
+.p_container{
+  overflow: hidden;
+  border-radius: 0rem 0rem .5rem .5rem;
+  background-color: #F6F6F6;
+}
+/* Buttons */
+#accordion_button{
+  width: 100%;
+  height: 5vh;
+  background-color: #FF6060;
+  border: none;
+  border-radius: .3rem;
+}
+.accordion_button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Arrow */
+.accordion_button img{
+  width: 3%;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(77deg) brightness(104%) contrast(102%);
+}
+.accordion_button{
+  text-align: start;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+/* Contenu */
+.p_content{
+  padding: 1rem;
+}
+/* Arrow button */
+.arrow{
+  transition: all 0.2s ease-in-out;
+}
+.arrow_up{
+  transform: rotate(180deg);
+}
+.arrow_down{
+  transform: rotate(0deg);
+}
+.p_content{
+  color: #FF6060;;
+}
+
+
+/* PORTABLE */
+@media screen and (max-width: 800px) {
+  /* article accordions */
+  .accordions{
+    width: 100%;
+  }
+  .accordion_button img{
+    width: 4%;
+  }
+}

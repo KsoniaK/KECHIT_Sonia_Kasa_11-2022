@@ -1,0 +1,32 @@
+/* section propriétaire */
+.container_proprietaires{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* div description */
+.proprietaire_description{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.container_accordion-logement{
+  display: flex;
+}
+.p-equipement{
+  margin-top: 0;
+}
+/* PORTABLE */
+@media screen and (max-width: 800px) {
+  .container_accordion-logement{
+    display: block;
+  }
+  /* div description */
+  .proprietaire_description{
+  display: block;
+  }
+  /* note desktop */
+  .proprietaire_tag-rating{
+    display: none;
+  }
+}
