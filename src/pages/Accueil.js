@@ -1,14 +1,15 @@
-// import { useState, useEffect } from "react";
 import React from "react";
-import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
+import imageAccueil from "../styles/img/header_accueil.png";
 import "../styles/Accueil.css";
 
+// Page d'Accueil
 function Accueil({ houses }) {
   return (
     <main className="main_accueil">
-      <div>
-        <Banner />
+      <div className="banner_accueil">
+        <img src={imageAccueil} alt="logements" />
+        <p>Chez vous, partout et ailleurs</p>
       </div>
       <section className="logements_container">
         <article className="logements_card">

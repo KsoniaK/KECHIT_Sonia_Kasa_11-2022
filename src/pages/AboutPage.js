@@ -1,8 +1,7 @@
 import React from "react";
 import image from "../styles/img/a_propos.png";
 import Accordion from "../components/Accordion";
-import "../styles/About.css";
-import "../styles/Banner.css";
+import "../styles/AboutPage.css";
 import "../styles/Accordion.css";
 
 function AboutPage() {
@@ -52,5 +51,4 @@ function AboutPage() {
     </main>
   );
 }
-
 export default AboutPage;

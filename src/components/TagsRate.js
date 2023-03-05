@@ -3,8 +3,8 @@ import redStar from "../styles/img/Vector.png";
 import greyStar from "../styles/img/Vector-2.png";
 import "../styles/TagsRate.css";
 
-// Titre, localisation et tag de chaque logement
-export default function TagsRate(props) {
+// Localisation et tag de chaque logement
+function TagsRate(props) {
   const rating = props.logement.rating;
 
   return (
@@ -31,3 +31,4 @@ export default function TagsRate(props) {
     </div>
   );
 }
+export default TagsRate;

@@ -4,16 +4,17 @@ import greyStar from "../styles/img/Vector-2.png";
 import "../styles/ProprietaireDetails.css";
 
 // Identité de l'hôte
-export default function ProprietaireDetails(props) {
-  const endofname = props.logement.host.name.indexOf(" ");
-  const name = props.logement.host.name.slice(0, endofname);
-  const lastname = props.logement.host.name.slice(endofname);
+function ProprietaireDetails(props) {
+  const endOfName = props.logement.host.name.indexOf(" ");
+  const name = props.logement.host.name.slice(0, endOfName);
+  const lastname = props.logement.host.name.slice(endOfName);
   const picture = props.logement.host.picture;
   const rating = props.logement.rating;
   const title = props.logement.title;
   const location = props.logement.location;
   const tags = props.logement.tags;
-
+ 
+  // Pour la div note condition: Si index et inférieur ou égal à la note du propriétaire, afficher un étoile rouge. Si non, afficher une étoile grise ???
   return (
     <>
       <div>
@@ -50,3 +51,4 @@ export default function ProprietaireDetails(props) {
     </>
   );
 }
+export default ProprietaireDetails;

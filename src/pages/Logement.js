@@ -7,8 +7,11 @@ import ProprietaireDetails from "../components/ProprietaireDetails";
 import TagsRate from "../components/TagsRate";
 import "../styles/Logement.css";
 
+// Description logement
 function Logement() {
+  // On isole l'id de l'URL ?
   const { id } = useParams();
+  // Comparaison : id di propriétaire qui correspond à l'id présent dans l'URL
   const logement = Datas.find((location) => location.id === id);
   const description = logement.description;
   const equipement = logement.equipments;
