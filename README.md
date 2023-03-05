@@ -11,7 +11,7 @@ Kasa est dans le métier de la location d’appartements entre particuliers depu
 
 ## Contribute to the project
 
-Kasa est un project open source.
+Kasa est un projet open source.
 
 ## Authors
 
