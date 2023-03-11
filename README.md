@@ -6,8 +6,8 @@ Kasa est dans le métier de la location d’appartements entre particuliers depu
 
 ## Technologies
 - JS
-- CSS 
 - React
+- CSS
 
 ## Contribute to the project
 
