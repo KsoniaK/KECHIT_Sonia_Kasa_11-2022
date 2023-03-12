@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/KsoniaK.gitHub.io/KECHIT_Sonia_Kasa_11-2022/static/css/main.3185527a.css",
+    "main.js": "/KsoniaK.gitHub.io/KECHIT_Sonia_Kasa_11-2022/static/js/main.de21fd81.js",
+    "static/media/a_propos.png": "/KsoniaK.gitHub.io/KECHIT_Sonia_Kasa_11-2022/static/media/a_propos.f3c06c113eb0a6f016f4.png",
+    "static/media/header_accueil.png": "/KsoniaK.gitHub.io/KECHIT_Sonia_Kasa_11-2022/static/media/header_accueil.1347937c21825536f5c5.png",
+    "index.html": "/KsoniaK.gitHub.io/KECHIT_Sonia_Kasa_11-2022/index.html",
+    "main.3185527a.css.map": "/KsoniaK.gitHub.io/KECHIT_Sonia_Kasa_11-2022/static/css/main.3185527a.css.map",
+    "main.de21fd81.js.map": "/KsoniaK.gitHub.io/KECHIT_Sonia_Kasa_11-2022/static/js/main.de21fd81.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3185527a.css",
+    "static/js/main.de21fd81.js"
+  ]
+}
