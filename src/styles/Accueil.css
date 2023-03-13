@@ -1,10 +1,10 @@
 /* Banner Accueil */
 .banner_accueil{
   text-align: center;
+  position: relative;
 }
 .banner_accueil img{
   border-radius: 1rem;
-  position: relative;
   filter: brightness(80%);
 }
 .banner_accueil p{
@@ -52,6 +52,7 @@
   height: 340px;
   filter: brightness(50%);
   border-radius: .5rem;
+  object-fit: cover;
 }
 
 /* PORTABLE */
@@ -71,7 +72,7 @@
       color: white;
       font-size: 1.5rem;
       text-align: start;
-      width: 51%;
+      width: 52%;
     }
   /* main */
   .main_accueil{
