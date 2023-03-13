@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import image from "../styles/img/logo.png";
 import "../styles/Header.css";
 
@@ -12,12 +12,12 @@ function Header() {
         </Link>
       </div>
       <div className="nav">
-        <Link to="/">
+        <NavLink to="/">
           <p>Accueil</p>
-        </Link>
-        <Link to="/About">
+        </NavLink>
+        <NavLink to="/About">
           <p>A propos</p>
-        </Link>
+        </NavLink>
       </div>
     </header>
   );

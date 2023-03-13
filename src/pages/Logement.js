@@ -1,4 +1,5 @@
 import React from "react";
+import { Navigate } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import Datas from "../service/logements.json";
 import Carousel from "../components/Carousel";
@@ -9,10 +10,14 @@ import "../styles/Logement.css";
 
 // Description logement
 function Logement() {
-  // On isole l'id de l'URL ?
+  // On isole l'id de l'URL
   const { id } = useParams();
-  // Comparaison : id di propriétaire qui correspond à l'id présent dans l'URL
+  // Comparaison : id du propriétaire qui correspond à l'id présent dans l'URL
   const logement = Datas.find((location) => location.id === id);
+  // // Dans le cas où l'id dans l'URL est incorrect / modifié
+  if(!logement){
+    return <Navigate to="/404" />
+  }
   const description = logement.description;
   const equipement = logement.equipments;
 

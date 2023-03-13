@@ -1,21 +1,20 @@
-import axios from "axios";
-import { useEffect, useState } from "react";
+// import axios from "axios";
+// import { useEffect, useState } from "react";
 
-function GetData(url) {
-  const [data, setData] = useState([]);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
+// function GetData(url) {
+//   const [data, setData] = useState([]);
+//   const [loading, setLoading] = useState(false);
+//   const [error, setError] = useState(null);
 
-  useEffect(() => {
-    // fetch("/db/logements.json")
-    setLoading(true);
-    axios
-      .get(url)
-      .then((res) => setData(res.data))
-      .catch((err) => setError(err))
-      .finally(() => setLoading(false));
-  }, [url]);
+//   useEffect(() => {
+//     setLoading(true);
+//     axios
+//       .get(url)
+//       .then((res) => setData(res.data))
+//       .catch((err) => setError(err))
+//       .finally(() => setLoading(false));
+//   }, [url]);
 
-  return { data, loading, error };
-}
-export default GetData;
+//   return { data, loading, error };
+// }
+// export default GetData;

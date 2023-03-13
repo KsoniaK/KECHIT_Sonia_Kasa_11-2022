@@ -32,6 +32,15 @@
   top: 50%;
   right: 1%;
 }
+.div_compteur-carousel{
+  position: relative;
+}
+.p_div_compteur-carousel{
+  position: relative;
+  left: 50%;
+  top: 80%;
+  color: white;
+}
 
 /* PORTABLE */
 @media screen and (max-width: 800px) {

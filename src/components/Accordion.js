@@ -23,7 +23,7 @@ function Accordion(props) {
   return (
     <article
       id="accordions"
-      className="accordions"
+      className="accordions margin"
       onClick={() => setToggle(!toggle)}
     >
       <div className="p_container">

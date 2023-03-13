@@ -25,9 +25,11 @@ function Carrousel(props) {
       <div className="slide">
         <img src={picturesArray[currentIndex]} alt="pictures_carrousel" />
       </div>
+    {picturesArray.length > 1 &&
+    <>
       <button>
         <img
-          onClick={nextSlide}
+          onClick={prevSlide}
           className="btn next"
           src={rightArrow}
           alt="next"
@@ -35,13 +37,16 @@ function Carrousel(props) {
       </button>
       <button>
         <img
-          onClick={prevSlide}
+          onClick={nextSlide}
           className="btn prev"
           src={leftArrow}
           alt="prev"
         />
-      </button>
-    </div>
+        </button>
+          <p className="p_div_compteur-carousel">{currentIndex + 1} / {picturesArray.length}</p>
+       </>
+      }
+        </div>
   );
 }
 export default Carrousel;
