@@ -40,6 +40,7 @@
   left: 50%;
   top: 80%;
   color: white;
+  width: 20%;
 }
 
 /* PORTABLE */
@@ -48,4 +49,7 @@
   .btn{
     width: 8%;
   }
+  /* .p_div_compteur-carousel{
+    width: 20%;
+  } */
 }
